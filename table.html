@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Расписание (Таблица)</title>
+    <style>
+        a:hover { background-color: yellow; }
+        a.active { background-color: red; color: white; }
+    </style>
+</head>
+<body>
+
+<h1>Меню</h1>
+<ul>
+    <li> <a href='main.html'>Главная страница</a> </li>
+    <li> <a href='info.html'>Учебные материалы (Главы)</a> </li>
+    <li> <a href='test_img.html'>Фотогалерея</a> </li>
+    <li> <a href="form.html">Анкета студента (Форма)</a> </li>
+    <li> <a href='passport.html'>Студенческий билет (Паспорт)</a> </li>
+    <li> <a href='table.html' class="active">Расписание (Таблица)</a> </li>
+    <li> <a href='task.html'>Лабораторная работа (Задача)</a> </li>
+    <li> <a href='DOM.html'>Считывание из DOM</a> </li>
+    <li> <a href="https://www.hse.ru/" target="_blank">Сайт универа (Внешний)</a> </li>
+    <li> <a href="https://www.hse.ru/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" width="20px" alt="Домой" /></a></li>
+</ul>
+
+<h2 align="center">Таблицы</h2>
+
+<table align="center" cellspacing="15" cellpadding="10" border="2" width="600px" 
+       style="background-color: gray; background-image: url('images/desert.jpg'); background-size: cover; border-color: red;">
+
+    <tr height="100">
+        <td align="right" valign="top" width="200">
+            <img src="images/student.jpg" height="50" alt="Студент"><br>
+            <font size="2" style="background: white;">Студентка</font>
+        </td>
+
+        <td></td>
+
+        <td width="200" style="color: white; text-shadow: 1px 1px 2px black;">
+            <b>1 семестр </b>
+        </td>
+    </tr>
+
+    <tr height="20">
+        <td colspan="3" align="center" style="background-color: Aqua;">
+            <b>Расписание на семестр</b>
+        </td>
+    </tr>
+
+    <tr>
+        <td width="400" height="300" valign="top" style="background: rgba(255, 255, 255, 0.8);">
+            <b>Расписание </b>
+            <ul>
+                <li>Арабский язык</li>
+                <li>Китайский язык</li>
+                <li>Программирование</li>
+                <li>История</li>
+            </ul>
+        </td>
+        
+        <td bgcolor="green" align="center" valign="middle">
+            <img src="images/yinyang.jpg" alt="Инь-Янь" width="100">
+        </td>
+    </tr>
+
+    <tr>
+        <td width="50%" height="200">
+            <table border="1" width="100%" cellspacing="0" cellpadding="20" style="background: white;">
+                <tr>
+                    <td><img src="images/books.jpg" alt="Книги" width="90" height="90"></td>
+                    <td>Ячейка 2</td>
+                </tr>
+                <tr>
+                    <td>Ячейка 3</td>
+                    <td>Ячейка 4</td>
+                </tr>
+            </table>
+        </td>
+        
+        <td width="50%" align="right" valign="middle">
+            <a href="main.html">
+                <img src="images/desk_big.jpg" alt="На главную" width="200" style="border: 2px solid white; margin: 15px;">
+            </a><br>
+            <span style="color: white; font-size: 12px; background: rgba(0,0,0,0.5);">Нажми на фото</span>
+        </td>
+    </tr>
+</table>
+
+<h3 style="text-align: center;">«Востоковедение»</h3>
+
+</body>
+</html>
